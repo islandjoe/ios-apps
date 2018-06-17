@@ -19,7 +19,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var diceImg1: UIImageView!
   @IBOutlet weak var diceImg2: UIImageView!
 
-  @IBAction func buttonPressed(_ sender: UIButton) {
+  fileprivate func rollDice() {
     randomDice1 = Int(arc4random_uniform(6))
     randomDice2 = Int(arc4random_uniform(6))
 
@@ -27,9 +27,14 @@ class ViewController: UIViewController {
     diceImg2.image = UIImage(named: diceFaces[randomDice2])
   }
 
+  @IBAction func buttonPressed(_ sender: UIButton) {
+    rollDice()
+  }
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+
+    rollDice()
   }
 
   override func didReceiveMemoryWarning() {
