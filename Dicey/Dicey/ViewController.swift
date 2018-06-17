@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
   @IBOutlet weak var dice1: UIImageView!
   @IBOutlet weak var dice2: UIImageView!
+  @IBOutlet weak var diceImg1: UIImageView!
+  @IBOutlet weak var diceImg2: UIImageView!
 
   @IBAction func buttonPressed(_ sender: UIButton) {
     randomDice1 = Int(arc4random_uniform(6))
