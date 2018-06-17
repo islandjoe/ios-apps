@@ -14,7 +14,7 @@ class ViewController: UIViewController {
   var randomDice1 = 0
   var randomDice2 = 0
 
-  let diceFaces = ["dice1", "dice2", "dice3", "dice4", "dice5", "dice6"]
+  let diceFaces = [#imageLiteral(resourceName: "dice1"), #imageLiteral(resourceName: "dice2"), #imageLiteral(resourceName: "dice3"), #imageLiteral(resourceName: "dice4"), #imageLiteral(resourceName: "dice5"), #imageLiteral(resourceName: "dice6")]
 
   @IBOutlet weak var diceImg1: UIImageView!
   @IBOutlet weak var diceImg2: UIImageView!
@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     randomDice1 = Int(arc4random_uniform(6))
     randomDice2 = Int(arc4random_uniform(6))
 
-    diceImg1.image = UIImage(named: diceFaces[randomDice1])
-    diceImg2.image = UIImage(named: diceFaces[randomDice2])
+    diceImg1.image = diceFaces[randomDice1]
+    diceImg2.image = diceFaces[randomDice2]
   }
 
   @IBAction func buttonPressed(_ sender: UIButton) {
