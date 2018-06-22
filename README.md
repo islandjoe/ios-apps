@@ -29,3 +29,11 @@ Utilizing MVC design pattern
 [Making the app video](https://youtu.be/vnWEosvyuXI)
 
 ![](assets/Quiz.gif)
+
+## [Autolayout and Constraints](https://github.com/islandjoe/ios11-apps/tree/auto-layout)
+
+Updated the Dicey app to use the autolayout features and constraints.
+
+[Making the app video](https://youtu.be/Pv7F13pf3OE)
+
+![](assets/Autolayout.gif)
