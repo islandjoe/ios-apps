@@ -26,4 +26,6 @@ Incorporating sound using `AVFoundation`
 
 Utilizing MVC design pattern
 
+[Making the app video](https://youtu.be/vnWEosvyuXI)
+
 ![](assets/Quiz.gif)
