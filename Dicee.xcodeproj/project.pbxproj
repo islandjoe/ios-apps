@@ -100,10 +100,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "London App Brewery";
+				ORGANIZATIONNAME = "Arthur Kho";
 				TargetAttributes = {
 					633647141B8C734900FF45E2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7N8G5ZX6JP;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -274,10 +275,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7N8G5ZX6JP;
 				INFOPLIST_FILE = Dicee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.Dicee;
+				PRODUCT_BUNDLE_IDENTIFIER = kho.arthur.Dicey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -289,10 +291,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7N8G5ZX6JP;
 				INFOPLIST_FILE = Dicee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.Dicee;
+				PRODUCT_BUNDLE_IDENTIFIER = kho.arthur.Dicey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
