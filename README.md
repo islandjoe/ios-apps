@@ -1,39 +1,22 @@
-# Simple iOS11 Apps for Reference
+# Simple iOS11 Apps for Reference: Stack View
 
-## [Dicey](https://github.com/islandjoe/ios11-apps/tree/dicey-app)
+How to get a nested group of stacked views to expand and fill the entire container:
 
-Rolls the dice when the button is tapped and when the phone is shaken.
+![](EqualFill.gif)
 
-[Making the app video](https://youtu.be/MqXCcnOHnRY)
+Select the parent Stack View container...
 
-![](assets/Dicey.gif)
+![](1.png)
 
-## [Magic 8 Ball](https://github.com/islandjoe/ios11-apps/tree/magic-8-ball)
+Add constraints to all edges of the parent container so that it occupies all the available space of the view container...
 
-[Making the app video](https://youtu.be/1phjyRW3Qcg)
+![](2-5.png)
 
-![](assets/Magic8Ball.gif)
+Finally, by letting the distribution to fill equally, all the children stack views fill up all the spaces in the parent stack view.
 
-## [Xylophone](https://github.com/islandjoe/ios11-apps/tree/xylophone)
+![](6.png)
 
-Incorporating sound using `AVFoundation`
+BEFORE and AFTER:
 
-[Making the app video](https://youtu.be/_k6sUbOPFFo)
+![](8.png)
 
-![](assets/Xylophone.gif)
-
-## [Quiz](https://github.com/islandjoe/ios11-apps/tree/quiz-app)
-
-Utilizing MVC design pattern
-
-[Making the app video](https://youtu.be/vnWEosvyuXI)
-
-![](assets/Quiz.gif)
-
-## [Autolayout and Constraints](https://github.com/islandjoe/ios11-apps/tree/auto-layout)
-
-Updated the Dicey app to use the autolayout features and constraints.
-
-[Making the app video](https://youtu.be/Pv7F13pf3OE)
-
-![](assets/Autolayout.gif)
