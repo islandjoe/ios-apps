@@ -37,3 +37,11 @@ Updated the Dicey app to use the autolayout features and constraints.
 [Making the app video](https://youtu.be/Pv7F13pf3OE)
 
 ![](assets/Autolayout.gif)
+
+## [Layouting with Stack View](https://github.com/islandjoe/ios11-apps/tree/stack-view)
+
+Imitating the Calculator app's layout and design using Stack View.
+
+[Making the app video](https://youtu.be/QsiZ-tH_fFE)
+
+![](assets/StackView.gif)
