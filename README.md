@@ -1,4 +1,4 @@
-# Simple iOS11 Apps
+# Simple iOS Apps
 
 ## [Dicey](https://github.com/islandjoe/ios11-apps/tree/dicey-app)
 
